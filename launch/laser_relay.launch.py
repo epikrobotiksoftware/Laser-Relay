@@ -6,7 +6,7 @@ from launch.substitutions import  LaunchConfiguration
 
 
 def generate_launch_description():
-
+    
     laser_relay = Node(
         package='laser_relay',
         executable='laser_relay',
